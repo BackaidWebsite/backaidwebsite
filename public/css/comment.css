@@ -1,0 +1,29 @@
+<style>
+center{
+  margin-right: 450px;
+  text-align:left;
+
+}
+
+
+i[type="reply"] {
+
+    margin-top: 5px;
+}
+
+input[type="title"] {
+
+    margin-bottom: 5px;
+}
+
+h4[type="replytitle"] {
+
+    margin-top: 10px;
+}
+
+button[type="comment"] {
+
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+</style>

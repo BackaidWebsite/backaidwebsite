@@ -1,0 +1,128 @@
+h1 {
+
+    line-height: 100px;
+}
+
+h1[name="h1centre"] {
+    text-align: center;
+    line-height: 100px;
+}
+
+
+.wrapper {
+    text-align: center;
+    margin-left:247px;
+    margin-bottom:25px;
+
+}
+h4 {
+    margin-top: 15px;
+}
+div[name="prompt"] {
+    text-align: center;
+
+}
+
+div[name="test"] {
+
+     float: right;
+  bottom: 550px;
+
+  position:relative;
+
+}
+table[name="show"] {
+     word-wrap: normal;
+}
+div[name="comment"] {
+
+     left: 50px;
+}
+div[name="view"] {
+
+     float: right;
+     top: 15px;
+     left: 40px;
+
+}
+div[name="comms"] {
+
+     left: 50px;
+
+}
+.content {
+    text-align: "center";
+    display: "inline-block";
+}
+
+.container {
+    text-align: "center";
+    display: "table-cell";
+    vertical-align: "middle";
+}
+
+button[name="te"] {
+
+   margin-right:500px;
+
+}
+button[name="view"] {
+
+    background-color: Transparent;
+    border:0.8px solid grey;
+}
+
+
+div[name="all"] {
+
+    top: 5px;
+
+}
+
+
+button[name="com"] {
+    margin-top: 5px;
+
+}
+
+button[type="deletecate"] {
+    margin-right: 300px;
+
+}
+button[name="del"] {
+
+    background: transparent;
+    border: none !important;
+}​
+
+button[type="categories"] {
+    margin-right: 95px;
+
+}
+
+button[name="back"] {
+
+    background-color: white;
+    border:0.8px solid black;
+
+}
+
+button[type="new"] {
+        margin-bottom: 5px;
+
+}
+
+
+
+
+/* For logout button
+#float-right {
+  float:right;
+}
+
+
+
+
+label[type="inputdelcate"] {
+    margin-left: 30px;
+}

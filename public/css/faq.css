@@ -1,0 +1,106 @@
+ul.noDec{
+	list-style-type: none;
+	float:left;
+	text-align: left;
+	min-width: 100%;
+}
+
+div.question{
+	border-bottom: solid grey;
+	border-width: 100%;
+}
+
+ul.noDec div.question li a {
+	font-weight: bold;
+	font-size: 120%
+}
+
+/* Answer-text area */
+div.well{
+	max-width: 85%;
+	padding-left: 30px;
+}
+
+/* Icon */
+i{
+	padding-right: 10px;
+}
+
+div.card {
+	bottom-margin:-2px;
+}
+
+body {
+	overflow-y: scroll;
+}
+
+div.card-header:hover {
+	background-color: lightgrey;
+}
+
+a:hover{
+	color:;
+}
+
+div.card-header a {
+	display: block;
+}
+
+a.card-link span {
+	float:left;
+	/*display: block;*/
+}
+
+div.card-body p {
+	text-align:left;
+	padding-left: 25px;
+}
+
+/* Card divider
+div.spacer{
+	padding-bottom: 5px;
+}
+*/
+
+.card-title a {
+    display: block;
+    padding: 0px;
+    font-weight: bold;
+    /*border:dotted red;*/
+}
+
+/*Maximises clickable area of link within card header */
+.card-title a:after {
+    content:'';
+    position:absolute;
+    top:-10px; bottom:-10px;
+    left:-10px; right:-10px;
+
+}
+
+.card-header{
+  background-color: transparent;
+  display:block;
+  padding: 10px 0px;
+  margin-left: 5px;
+  /*border:dotted green; */
+  }
+
+ .card {
+ 	border-style: none;
+ }
+/*
+ h1 {
+ 	background-color: darkblue;
+ 	color:white;
+ }
+ */
+
+ /* Icon toggle */
+a[aria-expanded=true] span .icon-expand {
+   display: none;
+}
+
+a[aria-expanded=false] span .icon-collapse {
+   display: none;
+}
